@@ -1,7 +1,3 @@
-// Closures => Scopes
-// Global Scope => whole file
-// local scope => inside function
-
 //Question # 1
 // function print (num1) {
 //     return function (num2) { 
@@ -38,6 +34,7 @@
 // let myPara = document.getElementById("my-para");
 // myPara.innerText = "Hello"
 // console.log(myPara);
+
 
 //Question # 4
 
@@ -96,16 +93,16 @@
 
 // Question # 8
 
-let person = [];
-function givenperson() {
-  let per = {
-    name: "Ali", // prompt("Enter Name"),
-    rollNo: 34, //+prompt("Enter Roll no"),
-    teacher: "Amir",  // prompt("Enter Teachers Name"),
-    className: "Java Script",  //prompt("Enter Your Class"),
-  };
-  person.push(per);
-  console.log(person);
-  let stringify = JSON.stringify(person); // Convert it to String
-  localStorage.setItem("person", stringify); // Save it to LocalStorage
-}
+// let person = [];
+// function givenperson() {
+//   let per = {
+//     name: "Ali", // prompt("Enter Name"),
+//     rollNo: 34, //+prompt("Enter Roll no"),
+//     teacher: "Amir",  // prompt("Enter Teachers Name"),
+//     className: "Java Script",  //prompt("Enter Your Class"),
+//   };
+//   person.push(per);
+//   console.log(person);
+//   let stringify = JSON.stringify(person); // Convert it to String
+//   localStorage.setItem("person", stringify); // Save it to LocalStorage
+// }
