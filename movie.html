@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th, td {
+          padding-top: 10px;
+          padding-bottom: 20px;
+          padding-left: 30px;
+          padding-right: 40px;
+        }
+        </style>
+         <script src="./app.js" defer></script>
+</head>
+<body>
+
+
+
+    <table border ="1"  style="width:100%">
+        <form id="myform">
+            <tr>
+                <th colspan="3"><h1>Movie Recommendation App</h1></th>
+
+            </tr>
+            <tr>
+                <td>GENRE</td>
+                <td>YEAR</td>
+                <td>LANGUAGE</td>
+            </tr>
+            <tr>
+                <td><select id="dbGenre" name="genre">
+                        <option value="All">All</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Action">Action</option>
+                        <option value="Comedy">Comedy</option>
+                        <option value="Romance">Romance</option>
+                        <option value="Adventure">Adventure</option>
+                        <option value="Animation">Animation</option>
+                        <option value="Family">Family</option>
+                        <option value="Thriller">Thriller</option>
+                        <option value="Science Fiction">Science Fiction</option>
+                        <option value="Crime">Crime</option>
+                        <option value="Mystery">Mystery</option>
+                        
+                    </select></td>
+                <td><select id="dbYear" name="year">
+                        <option value="All">All</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>a
+                        <option value="2011">2011</option>
+                        <option value="2010">2010</option>
+                    </select></td>
+                <td><select id="dbLanguage" name="LANGUAGE">
+                        <option value="All">All</option>
+                        <option value="English">English</option>
+                        <option value="French">French</option>
+                        <option value="Japanese">Japanese</option>
+                        <option value="Spanish">Spanish</option>
+                        <option value="Persian">Persian</option>
+                        <option value="Korean">Korean</option>
+                        <option value="Telugu">Telugu</option>
+                    </select></td>
+            </tr>
+            <tr>
+                <td colspan="3">RATING</td>
+                
+            </tr>
+            <tr>
+                <td colspan="3"><select id="dbRating" name="rating" style="width: 80%;">
+                    <option value="All">All</option>
+                    <option value="8.9">8.9</option>
+                    <option value="8.8">8.8</option>
+                    <option value="8.7">8.7</option>
+                    <option value="8.6">8.6</option>
+                    <option value="8.5">8.5</option>
+                    <option value="8.4">8.4</option>
+                    <option value="8.3">8.3</option>
+                    <option value="8.2">8.2</option>
+                    <option value="8.1">8.1</option>
+                    <option value="7.9">7.9</option>
+                    <option value="7.8">7.8</option>
+                    <option value="7.7">7.7</option>
+                    <option value="7.6">7.6</option>
+                    <option value="7.5">7.5</option>
+                    <option value="7.4">7.4</option>
+                    <option value="7.3">7.3</option>
+                    <option value="7.2">7.2</option>
+                    <option value="7.1">7.1</option>
+                    
+                </select></td>
+                
+            </tr>
+        </form>
+             
+    </table>
+
+    <table style="width:100%">
+        <thead >
+            <tr>
+                <th>RANK
+            
+                </th>
+                <th>
+                    Movie
+                </th>
+            <th>
+                Year
+            </th>
+            </tr>
+        </thead>
+<tbody id="movies-list" >
+
+</tbody>
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
