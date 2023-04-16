@@ -1,7 +1,3 @@
-// Closures => Scopes
-// Global Scope => whole file
-// local scope => inside function
-
 //Question # 1
 // function print (num1) {
 //     return function (num2) { 
@@ -38,6 +34,7 @@
 // let myPara = document.getElementById("my-para");
 // myPara.innerText = "Hello"
 // console.log(myPara);
+
 
 //Question # 4
 
